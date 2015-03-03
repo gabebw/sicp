@@ -9,7 +9,7 @@ Working my way through [SICP] again.
 You can use Homebrew to install `gambit-scheme` (which has paren-matching and
 readline support), or `plt-racket`.
 
-Invoke `gambit-scheme` with `scheme-r5rs`, or `plt-racket` with `racket`
+Invoke `gambit-scheme` with `scheme-r5rs`, or `plt-racket` with `racket`.
 
 ## mit-scheme
 
