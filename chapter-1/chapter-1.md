@@ -90,7 +90,6 @@ b
 
 Translate this into prefix form:
 
-
 ```scheme
 ; (5 + 4 + (2 - (3 - (6 + 4/5)))) / (3 (6 - 2) (2 - 7))
 
@@ -328,7 +327,7 @@ deferred procedures.
 
 1.10: Ackermann's function
 
-See file 1-10.scm
+See file `1.10.scm`
 
 * `(define (f n) (A 0 n))`; `(f n)` is 2n
 * `(define (g n) (A 1 n))`; `(g n)` is 2^n
@@ -376,6 +375,24 @@ See file 1-10.scm
   (???)
 ```
 
-1.11
+1.12
 
-See `1-11.scm`
+See `1.12.scm`
+
+1.13
+
+(skipped)
+
+1.14
+
+See `1.14.scm`
+
+1.15
+
+a) 5 times (see `1.15.scm` for reasoning)
+b) Number of steps is O(log a), since 1 step reduces the problem by 3.0. Space
+  requirement is the same as the number of steps, O(log a).
+
+1.16
+
+See `1.16.scm`
